@@ -17,7 +17,7 @@ public class Main {
         List<Integer> sumList = parallelSum100(map, 100);
         sumList.forEach(System.out::println);
     }
-
+//
     private static List<Integer> parallelSum100(Map<String, Integer> map,
                                                 int executionTimes) throws InterruptedException {
         List<Integer> sumList = new ArrayList<>(1000);
